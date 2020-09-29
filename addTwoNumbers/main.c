@@ -13,8 +13,6 @@
  };
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
-    int lenth1 = 0;
-    int lenth2 = 0;
     struct ListNode* p1 = l1;
     struct ListNode* p2 = l2;
     if (l1 == NULL) {
